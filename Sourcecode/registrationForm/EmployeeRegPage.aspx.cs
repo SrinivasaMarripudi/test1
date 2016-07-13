@@ -16,6 +16,7 @@ namespace registrationForm
     
         protected void Page_Load(object sender, EventArgs e)
         {
+            // if loop to check condition
             if (!IsPostBack)
 	        {
                 SqlConnection con = new SqlConnection(connStr);                    
